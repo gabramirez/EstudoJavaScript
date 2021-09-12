@@ -1,6 +1,6 @@
-const nome = [
+const marca = [
     {nome:'alessandro', end: "campo e mar"},
     {nome:'vaness', end : "rcasa"}
 ]
 
-const pesquisa = nome.find((marca)=> {return marca.nome === 'alessandro'})
+const pesquisa = marca.find((marca)=> {return marca.nome === 'alessandro'})
